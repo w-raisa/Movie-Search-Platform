@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+      <link rel="stylesheet" type="text/css" href="./css/style.css"> <!-- link the css style sheet -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  </head>
+  <body>
+    <div id="tabs" >
+      <button id="see-trending">See trending movies</button>
+      <form>
+          <input type="text" name="mytext" id="input-create-item" placeholder="Search movies"/>
+          <button id="button-create-item" class="btn btn-primary btn-sm">Search</button>
+      </form>
+    </div>
+    <div id="container">
+      <p></p>
+    </div>
+
+
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/main.js"></script>
+
+</html>

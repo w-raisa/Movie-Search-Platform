@@ -1,0 +1,49 @@
+body {
+  background-color: #FFF;
+}
+
+#trending {
+  padding: 45px;
+  margin: 10px;
+  height: 0.1%;
+}
+
+#tabs {
+  padding: 45px;
+  margin: 10px;
+  height: 0.1%;
+}
+
+#container {
+  padding: 30px;
+  margin: 20px;
+  height: 25px;
+}
+
+
+
+.item {
+  width: 300px;
+  height: 450px;
+  background-color: ##ffdefd;
+  padding: 8px;
+  float: left;
+  margin: 4px;
+}
+
+.item img {
+  width: 75%;
+}
+
+.name {
+  font-size: 12px;
+}
+
+.price {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.item .more-info {
+  display: none;
+}
