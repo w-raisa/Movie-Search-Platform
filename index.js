@@ -20,7 +20,7 @@ mongoose.connect("mongodb://localhost/movies", (err, data) =>{ // here we establ
 
 const app = express()
 
-app.listen(9001)
+app.listen(9000)
 
 app.use(bodyParser.urlencoded({extended: false}))
 
